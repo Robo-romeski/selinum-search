@@ -1,0 +1,37 @@
+--Dev Process--
+
+Phase 1: Login
+
+Phase 1.5: Key Term Collection & Submission
+-> INPUT need 2 fields
+--> Search Term (What data)
+--> Location ( Where data )
+
+-> SUBMIT search query
+-> Filter for DATE posted
+
+Page 1.75: Page Count & Duration
+-> Count how many pages are available for Scraping [Default Max=10]
+
+Phase 2: Scarpe
+
+Scrape Through Job Posts
+-> Check 'Desired Experience' for given variables
+--> Via input OR separate file?
+
+IF matches desired variables, then
+-> Trigger Pre-Application Process
+
+Phase 2.5: Pre-App:
+See if Indeed's platform allows for generic application of job.
+IF yes, then
+-> Trigger Applicaiton Process
+
+Phase 3: Application
+-> Filling out Data w/ Preset Info
+-> Inputting Resume if not Default
+-> Inputting Cover Letter
+
+Phase 3.5 Post-Application
+-> Wait T seconds ( T should be... 20s? )
+-> Move on to Next
